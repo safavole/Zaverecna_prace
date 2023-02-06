@@ -8,3 +8,4 @@ class Pojistenec:
 
     def __str__(self):
         return self.jmeno + " " + self.prijmeni + ", " + str(self.vek) + " let, " + self.telefonni_cislo
+        
