@@ -1,5 +1,5 @@
 from Pojistenec import Pojistenec
-import time                                                  # Při neplatné volbě a vrácení se do menu zastaví aplikaci na 0.75 vteřiny. Uživatelsky hezčí.
+import time                                                  # Při neplatné volbě a vrácení se do menu či terminování aplikace, zastaví aplikaci na 0.75 vteřiny. Uživatelsky hezčí.
 
 pojistenci = []
 """Seznam pojištěnců."""
@@ -82,7 +82,7 @@ def menu():
         elif volba == "4":
             print()
             print("Ukončuji aplikaci.")
-            time.sleep(3)
+            time.sleep(1.5)
             return
         else:
             """Při neplatné volbě vyhodí hlášku"""
