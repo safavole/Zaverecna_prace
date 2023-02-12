@@ -82,6 +82,7 @@ def menu():
         elif volba == "4":
             print()
             print("Ukončuji aplikaci.")
+            time.sleep(3)
             return
         else:
             """Při neplatné volbě vyhodí hlášku"""
