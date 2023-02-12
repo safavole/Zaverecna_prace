@@ -1,5 +1,5 @@
 from Pojistenec import Pojistenec
-import time                                                  # Při neplatné volbě a vrácení se do menu zastaví aplikaci na 0.75 vteřiny
+import time                                                  # Při neplatné volbě a vrácení se do menu zastaví aplikaci na 0.75 vteřiny. Uživatelsky hezčí.
 
 pojistenci = []
 """Seznam pojištěnců."""
